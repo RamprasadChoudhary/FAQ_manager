@@ -33,17 +33,30 @@ docker pull ram9086/faq-project:latest
 docker run -p 8000:8000 ram9086/faq-project
 ```
 ### 📌 3. Access the Application
-API Endpoint: http://127.0.0.1:8000/api/faqs/
+API Endpoint: http://127.0.0.1:8000/api/faqs/   
 Django Admin Panel: http://127.0.0.1:8000/admin/
-🔧 Usage
-🖊 Add FAQs via Django Admin
-Open: http://127.0.0.1:8000/admin/
-Log in using admin credentials(username: vikash && password: 12345).
-Navigate to FAQ Management and add FAQs.
-📡 Access FAQs via API
-➤ Fetch FAQs (Default: English)
+## 🔧 Usage  
+
+## API Endpoints  
+- **API Endpoint:** http://127.0.0.1:8000/api/faqs/  
+- **Django Admin Panel:** http://127.0.0.1:8000/admin/  
+
+---
+
+## Add FAQs via Django Admin  
+1. Open: http://127.0.0.1:8000/admin/  
+2. Log in using admin credentials:  
+   - **Username:** vikash  
+   - **Password:** 12345  
+3. Navigate to **FAQ Management** and add FAQs.  
+
+---
+
+## Access FAQs via API  
+➤  Fetch FAQs (Default: English)  
 ```bash
 curl http://127.0.0.1:8000/api/faqs/
+
 ```
 ➤ Fetch FAQs in Hindi
 ```bash
